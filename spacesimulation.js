@@ -15,7 +15,7 @@ let Mocond = [ (1.0*10**23) , 5000   , 120 , 5 , 3 ];
 let Placond = [ (1.0*10**28), 140000 , 500 , 60, 30 ];
 let Stacond = [ (1.0*10**29), 100000 , 3000, 0 , 300 ];
 
-console.log(Astcond[0])
+
 
 let demo = "(Answare -- yes or Not )";
 let number = "( Number 1234*** ) "
@@ -36,7 +36,7 @@ if (permission === "yes") {
     console.log("\n🚀 Hello,", yourName + "!");
     console.log("Start your research on space!");
 
-    let research = prompt('Do yopu want to reacherse? '+ demo + "---:").toLocaleLowerCase();
+    let research = prompt('Do you want to reacherse? '+ demo + "---:").toLocaleLowerCase();
 
     if (research === "yes") {
         console.log(10)
@@ -54,7 +54,7 @@ if (permission === "yes") {
         console.log(" 🚨 SPACE⚠️")
         console.log(" 🚨 SPACE⚠️")
         console.log(" 🚨 SPACE⚠️")
-        console.log("⚠️Finaly wil detected an object in space--")
+        console.log("Finaly wil detected an object in space--")
         console.log("📡 Unknown Space Object Detected...")
         console.log("Signal ID : X-2049")
         console.log("Status    : Unidentified")
