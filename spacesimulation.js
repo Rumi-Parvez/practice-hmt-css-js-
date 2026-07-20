@@ -150,7 +150,7 @@ if (permission === "yes") {
             console.log("Penaint your Inovation ")
 
             inovationNameis = prompt("Enter Your inovation " + YourInovation + "Official name- : ")
-            inovationdateis = prompt("Discovery Date- : ")
+            inovationdateis = Number(prompt("Discovery Date- : "))
             inovationNOteis = prompt(" Notes- :")
             inovationcountryis = prompt("Country- : ")
         }
@@ -169,7 +169,7 @@ if (permission === "yes") {
         console.log(YourInovation + " Successfully Added to the Space Database.")
         console.log("Add or more Objects from space. enjoy for reasearch 😀😎")
         console.log("Your Discoverde objects " + Asteroid + Comet + Moon + Planet + Star + UniversalObjects    )
-        console.log("The End of Simulation📜. Thank you for Discover New Object of" + YourInovation )
+        console.log("The End of Simulation📜. Thank you for Discover New Object of " + YourInovation )
         console.log("===========================================")
         
     }
@@ -179,7 +179,7 @@ if (permission === "yes") {
         console.log(YourInovation + " Successfully Added to the Space Database.")
         console.log("Add or more Objects from space. enjoy for reasearch 😀😎")
         console.log("Your Discoverde objects " + Asteroid + Comet + Moon + Planet + Star + UniversalObjects    )
-        console.log("The End of Simulation📜. Thank you for Discover New Object of" + YourInovation )
+        console.log("The End of Simulation📜. Thank you for Discover New Object of " + YourInovation )
         console.log("===========================================")
     }
     else if(YourInovation == "Moon"){
@@ -187,7 +187,7 @@ if (permission === "yes") {
         console.log(YourInovation + " Successfully Added to the Space Database.")
         console.log("Add or more Objects from space. enjoy for reasearch 😀😎")
         console.log("Your Discoverde objects " + Asteroid + Comet + Moon + Planet + Star + UniversalObjects    )
-        console.log("The End of Simulation📜. Thank you for Discover New Object of" + YourInovation )
+        console.log("The End of Simulation📜. Thank you for Discover New Object of " + YourInovation )
         console.log("===========================================")
     }
     else if(YourInovation == "Planet"){
@@ -195,7 +195,7 @@ if (permission === "yes") {
         console.log(YourInovation + " Successfully Added to the Space Database.")
         console.log("Add or more Objects from space. enjoy for reasearch 😀😎")
         console.log("Your Discoverde objects " + Asteroid + Comet + Moon + Planet + Star + UniversalObjects    )
-        console.log("The End of Simulation📜. Thank you for Discover New Object of" + YourInovation )
+        console.log("The End of Simulation📜. Thank you for Discover New Object of " + YourInovation )
         console.log("===========================================")
     }
     else if(YourInovation == "Star"){
@@ -203,7 +203,7 @@ if (permission === "yes") {
         console.log(YourInovation + " Successfully Added to the Space Database.")
         console.log("Add or more Objects from space. enjoy for reasearch 😀😎")
         console.log("Your Discoverde objects " + Asteroid + Comet + Moon + Planet + Star + UniversalObjects    )
-        console.log("The End of Simulation📜. Thank you for Discover New Object of" + YourInovation )
+        console.log("The End of Simulation📜. Thank you for Discover New Object of " + YourInovation )
         console.log("===========================================")
     }
     else if(YourInovation == "UFO- Objects"){
@@ -211,7 +211,7 @@ if (permission === "yes") {
         console.log(YourInovation + " Successfully Added to the Space Database.")
         console.log("Add or more Objects from space. enjoy for reasearch 😀😎")
         console.log("Your Discoverde objects " + Asteroid + Comet + Moon + Planet + Star + UniversalObjects    )
-        console.log("The End of Simulation📜. Thank you for Discover New Object of" + YourInovation )
+        console.log("The End of Simulation📜. Thank you for Discover New Object of " + YourInovation )
         console.log("===========================================")
     }
 
