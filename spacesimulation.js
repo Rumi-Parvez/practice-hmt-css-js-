@@ -6,6 +6,7 @@ let Comet = [ ]
 let Moon = [ ]
 let Planet = [ ]
 let Star = [ ]
+let UniversalObjects = []
 
 // Array maximaum
 let Astcond = [ (1.0*10**21), 1000   , 150 , 30, 0 ];
@@ -19,8 +20,13 @@ console.log(Astcond[0])
 let demo = "(Answare -- yes or Not )";
 let number = "( Number 1234*** ) "
 
-let YourInovation;
-let isInovation;
+// Declaring all innovation variables at top scope with default values to prevent crashes
+let YourInovation = "Unknown";
+let isInovation = false;
+let inovationNameis = "Not Named";
+let inovationdateis = "N/A";
+let inovationNOteis = "No Notes";
+let inovationcountryis = "N/A";
 
 let permission = prompt("Do you wanna start this simulation?  ( Ansawre --- Yes or Not) ==== : ").toLocaleLowerCase();
 
@@ -138,6 +144,7 @@ if (permission === "yes") {
             }
 
         }
+        
         if(isInovation) {
             console.log("Penaint your Inovation ")
 
@@ -145,19 +152,61 @@ if (permission === "yes") {
             inovationdateis = prompt("Discovery Date- : ")
             inovationNOteis = prompt(" Notes- :")
             inovationcountryis = prompt("Country- : ")
-           
-            
-            
-
         }
 
-            console.log("Your Inovation is a new :" + YourInovation)
-            console.log("Official Name : " + inovationNameis )
-            console.log("Discovered By :" + yourName )
-            console.log("Discovery Date : " + inovationdateiss )
-            console.log("Notes : " + inovationNOteisis )
-    } 
+        console.log("Your Inovation is a new :" + YourInovation)
+        console.log("Official Name : " + inovationNameis )
+        console.log("Discovered By :" + yourName )
+        console.log("Discovery Date : " + inovationdateis ) // Fixed typo here
+        console.log("Notes : " + inovationNOteis ) // Fixed typo here
+    }
+    
+    if(YourInovation == "Asteroid"){
+        Asteroid.push(YourInovation)
+        console.log(YourInovation + " Successfully Added to the Space Database.")
+        console.log("Add or more Objects from space. enjoy for reasearch 😀😎")
+        console.log("Your Discoverde objects " + Asteroid + Comet + Moon + Planet + Star + UniversalObjects    )
+        console.log("The End of Simulation📜. Thank you for Discover New Object of" + YourInovation )
+        
+    }
+    else if(YourInovation == "Comet"){
+        Comet.push(YourInovation)
+        console.log(YourInovation + " Successfully Added to the Space Database.")
+        console.log("Add or more Objects from space. enjoy for reasearch 😀😎")
+        console.log("Your Discoverde objects " + Asteroid + Comet + Moon + Planet + Star + UniversalObjects    )
+        console.log("The End of Simulation📜. Thank you for Discover New Object of" + YourInovation )
+    }
+    else if(YourInovation == "Moon"){
+        Moon.push(YourInovation)
+        console.log(YourInovation + " Successfully Added to the Space Database.")
+        console.log("Add or more Objects from space. enjoy for reasearch 😀😎")
+        console.log("Your Discoverde objects " + Asteroid + Comet + Moon + Planet + Star + UniversalObjects    )
+        console.log("The End of Simulation📜. Thank you for Discover New Object of" + YourInovation )
+    }
+    else if(YourInovation == "Planet"){
+        Planet.push(YourInovation)
+        console.log(YourInovation + " Successfully Added to the Space Database.")
+        console.log("Add or more Objects from space. enjoy for reasearch 😀😎")
+        console.log("Your Discoverde objects " + Asteroid + Comet + Moon + Planet + Star + UniversalObjects    )
+        console.log("The End of Simulation📜. Thank you for Discover New Object of" + YourInovation )
+    }
+    else if(YourInovation == "Star"){
+        Star.push(YourInovation)
+        console.log(YourInovation + " Successfully Added to the Space Database.")
+        console.log("Add or more Objects from space. enjoy for reasearch 😀😎")
+        console.log("Your Discoverde objects " + Asteroid + Comet + Moon + Planet + Star + UniversalObjects    )
+        console.log("The End of Simulation📜. Thank you for Discover New Object of" + YourInovation )
+    }
+    else if(YourInovation == "UFO- Objects"){
+        UniversalObjects.push(YourInovation)
+        console.log(YourInovation + " Successfully Added to the Space Database.")
+        console.log("Add or more Objects from space. enjoy for reasearch 😀😎")
+        console.log("Your Discoverde objects " + Asteroid + Comet + Moon + Planet + Star + UniversalObjects    )
+        console.log("The End of Simulation📜. Thank you for Discover New Object of" + YourInovation )
+    }
+
 } 
 else {
     console.log("\n👋 Simulation cancelled.");
+    console.log("At frist make sure Permission of this simulation. So re start agin . and for permission use thsi " + demo)
 }
