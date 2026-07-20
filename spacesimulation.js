@@ -39,17 +39,12 @@ if (permission === "yes") {
     let research = prompt('Do you want to reacherse? '+ demo + "---:").toLocaleLowerCase();
 
     if (research === "yes") {
-        console.log(10)
-        console.log(9)
-        console.log(8)
-        console.log(7)
-        console.log(6)
-        console.log(5)
-        console.log(4)
-        console.log(3)
-        console.log(2)
-        console.log(1)
-        console.log(0)
+        
+        let count = 20 ;
+        while(count >= 7 ){
+            console.log('Finding object 🎯-- :' + count )
+            count--
+        }
         console.log(" 🚨 SPACE⚠️")
         console.log(" 🚨 SPACE⚠️")
         console.log(" 🚨 SPACE⚠️")
