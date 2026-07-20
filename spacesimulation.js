@@ -144,6 +144,7 @@ if (permission === "yes") {
             }
 
         }
+        console.log("===========================================")
         
         if(isInovation) {
             console.log("Penaint your Inovation ")
@@ -153,12 +154,14 @@ if (permission === "yes") {
             inovationNOteis = prompt(" Notes- :")
             inovationcountryis = prompt("Country- : ")
         }
+        console.log("===========================================")
 
         console.log("Your Inovation is a new :" + YourInovation)
         console.log("Official Name : " + inovationNameis )
         console.log("Discovered By :" + yourName )
         console.log("Discovery Date : " + inovationdateis ) // Fixed typo here
         console.log("Notes : " + inovationNOteis ) // Fixed typo here
+        console.log("===========================================")
     }
     
     if(YourInovation == "Asteroid"){
@@ -167,14 +170,17 @@ if (permission === "yes") {
         console.log("Add or more Objects from space. enjoy for reasearch 😀😎")
         console.log("Your Discoverde objects " + Asteroid + Comet + Moon + Planet + Star + UniversalObjects    )
         console.log("The End of Simulation📜. Thank you for Discover New Object of" + YourInovation )
+        console.log("===========================================")
         
     }
+    
     else if(YourInovation == "Comet"){
         Comet.push(YourInovation)
         console.log(YourInovation + " Successfully Added to the Space Database.")
         console.log("Add or more Objects from space. enjoy for reasearch 😀😎")
         console.log("Your Discoverde objects " + Asteroid + Comet + Moon + Planet + Star + UniversalObjects    )
         console.log("The End of Simulation📜. Thank you for Discover New Object of" + YourInovation )
+        console.log("===========================================")
     }
     else if(YourInovation == "Moon"){
         Moon.push(YourInovation)
@@ -182,6 +188,7 @@ if (permission === "yes") {
         console.log("Add or more Objects from space. enjoy for reasearch 😀😎")
         console.log("Your Discoverde objects " + Asteroid + Comet + Moon + Planet + Star + UniversalObjects    )
         console.log("The End of Simulation📜. Thank you for Discover New Object of" + YourInovation )
+        console.log("===========================================")
     }
     else if(YourInovation == "Planet"){
         Planet.push(YourInovation)
@@ -189,6 +196,7 @@ if (permission === "yes") {
         console.log("Add or more Objects from space. enjoy for reasearch 😀😎")
         console.log("Your Discoverde objects " + Asteroid + Comet + Moon + Planet + Star + UniversalObjects    )
         console.log("The End of Simulation📜. Thank you for Discover New Object of" + YourInovation )
+        console.log("===========================================")
     }
     else if(YourInovation == "Star"){
         Star.push(YourInovation)
@@ -196,6 +204,7 @@ if (permission === "yes") {
         console.log("Add or more Objects from space. enjoy for reasearch 😀😎")
         console.log("Your Discoverde objects " + Asteroid + Comet + Moon + Planet + Star + UniversalObjects    )
         console.log("The End of Simulation📜. Thank you for Discover New Object of" + YourInovation )
+        console.log("===========================================")
     }
     else if(YourInovation == "UFO- Objects"){
         UniversalObjects.push(YourInovation)
@@ -203,6 +212,7 @@ if (permission === "yes") {
         console.log("Add or more Objects from space. enjoy for reasearch 😀😎")
         console.log("Your Discoverde objects " + Asteroid + Comet + Moon + Planet + Star + UniversalObjects    )
         console.log("The End of Simulation📜. Thank you for Discover New Object of" + YourInovation )
+        console.log("===========================================")
     }
 
 } 
