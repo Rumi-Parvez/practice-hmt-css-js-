@@ -128,7 +128,7 @@ if (permission === "yes") {
             }
             
             // Stacond
-            else if( Mass <= Stacond[0] && Diameter <= Stacond[1] && Temperature <= Stacond[2] && OrbitalSpeedKM_s <= Stacond[3] && GravityM_s2 <= Stacond[4] && ProducesLight == "yes" && NuclearFusion == "yes" && OrbitsAStar == "not" && MassOrbitsAPlanet == "not" && HasAtmosphere == "not" && HasTail == "not" && MadeOFIce == "not" && MadeOfRock == "not" && IrregularShape == "not" && ClearsOrbit == "not" ){
+            else if( Mass >= Stacond[0] && Diameter >= Stacond[1] && Temperature >= Stacond[2] && OrbitalSpeedKM_s <= Stacond[3] && GravityM_s2 <= Stacond[4] && ProducesLight == "yes" && NuclearFusion == "yes" && OrbitsAStar == "not" && MassOrbitsAPlanet == "not" && HasAtmosphere == "not" && HasTail == "not" && MadeOFIce == "not" && MadeOfRock == "not" && IrregularShape == "not" && ClearsOrbit == "not" ){
                 console.log("===========================================")
                 console.log("it's a Star")
                 console.log("Confidence: 98.7% ")
