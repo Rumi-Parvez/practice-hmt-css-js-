@@ -1,0 +1,169 @@
+/* header section  */
+
+
+header{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 5px;
+    max-width: 2000px;
+    justify-content: center;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-top: 5px;
+    margin: auto;
+    
+}
+.logo{
+    width: 30%;
+}
+
+.logo h1{
+    color: black;
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.menu{
+    width: 40%;
+}
+.menu ul{
+    display: flex;
+
+    justify-content: space-evenly;
+    list-style: none;
+
+
+}
+
+
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btndiv{
+    width: 30%;
+
+}
+.btn{
+    border: none;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-size: 0.9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.btn1{
+    background-color: white;
+    border: 1px solid red;
+    color: black;
+    cursor: pointer;
+
+}
+
+.btn1:hover{
+     background-color: red;
+    color: white;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+/* hrto section  */
+
+.hero{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.hero img{
+    height: 700px;
+    padding-top: 80px;
+   
+}
+.plane{
+    position: absolute;
+
+    top: 470px;
+
+
+    transform: translateX(-50%);
+    transform: scaleX(-1);
+
+    opacity: 0.06;
+
+    height: 650px;
+
+    z-index: 1;
+
+    left: 180px;
+    rotate: 170deg
+    ;
+    
+}
+
+.child{
+    position: absolute;
+    top: 150px;
+    left: 380px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.child h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5rem;
+}
+
+.child p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin-top: -25px;
+    padding-bottom: 20px;
+}
+
+.child button{
+    border: none;
+    height: 50px;
+    width: 150px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.child2{
+    text-align: center;
+    align-items: center;
+    margin-top: -70px;
+
+}
+
+.child2 h1 {
+    font-size: 2.8rem;
+    font-family: Arial, Helvetica, sans-serif
+
+}
+.child2 p{
+    margin-top: -20px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+hr {
+    border: 1px solid wheat;
+}
